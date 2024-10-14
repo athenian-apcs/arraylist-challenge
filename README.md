@@ -1,38 +1,7 @@
 # Greenfoot Unit Day 1: ArrayList Practice
 
-Today in class, we'll be practicing working with ArrayLists. Recall that ArrayLists are pretty similar to arrays! However, whereas we use the square brackets [] to interact with arrays, ArrayLists have a bunch of different methods that we use: get(), add(), set(), size(), and remove(). 
+This file contains challenge problems for even more practice with ArrayLists.
 
-Note that all the methods we'll be working with today will be **static** just to keep things simple. However, if we wanted to, we can write classes with ArrayLists as instance variables!
-
-startsWithA(). Takes an ArrayList of Strings as input and returns the number of Strings that start with the letter "A" or "a". Your method should have the following signature:
-```shell script
-public static int startsWithA(ArrayList<String> list) { }
-```
-
-makeExciting(). Takes an ArrayList of Strings as input and adds an exclamation mark "!" to the end of every String in the ArrayList. Your method should have the following signature:
-```shell script
-public static ArrayList<String> makeExciting(ArrayList<String> list) { }
-```
-
-checkDuplicates(). This method takes two ArrayList<Integer> as input and returns true if there is a number that appears in both ArrayLists.
-```shell script
-public static boolean checkDuplicates(ArrayList<Integer> list1, ArrayList<Integer> list2) { }
-```
-
-countOdd(). This method takes an ArrayList<Integer> as input and returns the number of odd numbers in the ArrayList. The method should have the following signature:
-```shell script
-public static int countOdd(ArrayList<Integer> list) { }
-```
-
-convertToArrayList(). Unlike the other methods, this method takes an **int[]** as input. The method returns an ArrayList<Integer> containing the values from the int[]. The method has the following signature:
-```shell script
-public static ArrayList<Integer> convertToArrayList(int[] arr) { }
-```
-
-merge(). This method takes two **sorted** (from smallest to largest) ArrayLists and merges them together into one big sorted ArrayList. (_Hint_: you may find it useful to use a while loop, as well as the remove() method). The method has the following signature:
-```shell script
-public static ArrayList<Integer> merge(ArrayList<Integer> list1, ArrayList<Integer> list2) { }
-```
 
 <br />
 <br />
